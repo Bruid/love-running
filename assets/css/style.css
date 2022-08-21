@@ -176,3 +176,13 @@ hr {
     border-style: solid;
     border-color: #ccc;
     border-width: 1px;
+}
+/* event times */
+#times {
+    background-image: url('../Images/dublin-city.webp');
+    background-repeat: no repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+}
