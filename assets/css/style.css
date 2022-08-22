@@ -104,6 +104,8 @@ transform: scale(1);
 }
 /* club-ethos */
 
+/* club ethos */
+
 #club-ethos {
     height: 600px;
 }
@@ -112,21 +114,19 @@ transform: scale(1);
     padding-top: 30px;
     width: 33%;
     float: left;
-    background-color: blue;
 }
 
 #right-about {
     padding-top: 30px;
     width: 33%;
     float: right;
-
 }
 
 #center-about {
     width: 33%;
     margin: 0 auto;
-    
 }
+
 hr {
     border-top: 1px solid #3a3a3a;
     width: 100%;
@@ -139,13 +139,6 @@ hr {
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
-    border-radius: 50%;
-    margin: 0 auto;
-}
-#circle-cover-bg {
-    background: url('../Images/ethos-center-image.jpg') no-repeat center center;
-    height: 100%;
-    border-radius: 50%;
 }
 
 .right-about-heading {
@@ -163,6 +156,7 @@ hr {
 .right-about-heading p {
     text-align: right;
 }
+
 #welcome {
     text-align: center;
     margin: 20px 0;
@@ -176,7 +170,16 @@ hr {
     border-style: solid;
     border-color: #ccc;
     border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
 }
+
+#circle-cover-bg {
+    background: url('/assets/Images/ethos-center-image.jpg') no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+}
+
 /* event times */
 #times {
     background-image: url('../Images/dublin-city.webp');
@@ -259,5 +262,17 @@ display: inline;
     }
     hr {
         display: none;
+    }
+}
+/*for medium screen sizes 950px wide and down*/
+
+@media screen and (max-width: 950px) {
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+
     }
 }
